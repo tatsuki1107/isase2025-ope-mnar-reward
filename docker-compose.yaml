@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  isase2025-ope:
+    container_name: python
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    ports:
+      - 8888:8888

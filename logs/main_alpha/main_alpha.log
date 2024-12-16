@@ -1,0 +1,4 @@
+[2024-12-16 04:28:01,986][__main__][INFO] - start the experiment.
+[2024-12-16 04:28:01,990][__main__][INFO] - {'n_val_seeds': 100, 'val_size': 1000, 'test_size': 10000, 'dim_context': 5, 'len_list': 5, 'n_actions': 500, 'n_clusters': 5, 'alpha': 1.0, 'beta': 1.0, 'eps': 0.1, 'reward_noise': 0.5, 'random_state': 12345, 'max_iter': 10, 'variation': {'alpha_list': [0.0, 1.0, 2.0, 3.0]}}
+[2024-12-16 04:35:12,321][__main__][INFO] - alpha: 0.0: 100% 100/100 [07:09<00:00,  4.29s/it]
+[2024-12-16 04:44:15,802][__main__][INFO] - alpha: 1.0: 100% 100/100 [09:01<00:00,  5.42s/it]
