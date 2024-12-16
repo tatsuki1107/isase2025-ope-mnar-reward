@@ -1,0 +1,19 @@
+n_val_seeds: 100
+val_size: 1000
+test_size: 10000
+dim_context: 5
+len_list: 5
+n_actions: 500
+n_clusters: 5
+alpha: 1.0
+beta: 1.0
+eps: 0.1
+reward_noise: 0.5
+random_state: 12345
+max_iter: 10
+variation:
+  alpha_list:
+  - 0.0
+  - 1.0
+  - 2.0
+  - 3.0

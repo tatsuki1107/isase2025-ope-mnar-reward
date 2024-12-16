@@ -120,7 +120,7 @@ def _visualize_mse_bias_variance(
         fontsize=LABEL_FONTSIZE,
         ncol=len(palettes),
         loc="upper center",
-        bbox_to_anchor=(0.5, 1.1),
+        bbox_to_anchor=(0.5, 1.07),
     )
 
     plt.show()
