@@ -1,5 +1,5 @@
-# Off-Policy Evaluation for Recommendations from Missing-Not-At-Random rewards
-This repository contains the experimental code for the paper titled “Off-Policy Evaluation for Recommendations from Missing-Not-At-Random Rewards,” which we intend to submit to [ISASE 2025](https://www.isase-ke.org/isase2025/), an international conference organized by the Japan Society of Kansei Engineering.
+# Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards
+This repository contains the experimental code for the paper titled “Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards”, which we intend to submit to [ISASE 2025](https://www.isase-ke.org/isase2025/), an international conference organized by the Japan Society of Kansei Engineering.
 
 ## Main Package Version
 We use [Poetry](https://python-poetry.org/) to manage versions of Python and its libraries. The primary versions are as follows (see `pyproject.toml` for details).
