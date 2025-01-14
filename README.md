@@ -14,12 +14,20 @@ matplotlib = "3.7.3"
 hydra-core = "^1.3.2"
 ```
 
-## Run Experiments
+## Synthetic Experiments
 Our experimental script operates within a Docker container. Please ensure that [Docker Desktop](https://docs.docker.com/desktop/) is installed first. Then, build a Docker image using the `docker compose build` command.
 
 ```
 docker compose build
 ```
+### Define Ranking Action Spaces
+Ensure that the file `db/ranking_action_spaces.db` exists. If necessary, you can define the ranking action spaces to be used for our experiment using the following command:
+
+```
+docker compose run --rm isase2025-ope db/insert.py
+```
+
+### Run Experimental Script
 
 ・How does our estimator perform with varying the levels of bias in reward observations?
 ```
