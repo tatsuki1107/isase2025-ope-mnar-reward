@@ -1,5 +1,10 @@
 # Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards
-This repository contains the experimental code for the paper titled “Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards”, which we intend to submit to [ISASE 2025](https://www.isase-ke.org/isase2025/), an international conference organized by the Japan Society of Kansei Engineering.
+This repository contains the experimental code for the paper titled “Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards,” which we are contributing to [ISASE 2025](https://www.isase-ke.org/isase2025/), an international conference organized by the Japan Society of Kansei Engineering.  
+
+Preprint: https://arxiv.org/abs/2502.08993  
+
+## Abstract
+Unbiased recommender learning (URL) and off-policy evaluation/learning (OPE/L) techniques are effective in addressing the data bias caused by display position and logging policies, thereby consistently improving the performance of recommendations. However, when both bias exits in the logged data, these estimators may suffer from significant bias. In this study, we first analyze the position bias of the OPE estimator when rewards are missing not at random. To mitigate both biases, we propose a novel estimator that leverages two probabilities of logging policies and reward observations as propensity scores. Our experiments demonstrate that the proposed estimator achieves superior performance compared to other estimators, even as the levels of bias in reward observations increases.
 
 ## Main Package Version
 We use [Poetry](https://python-poetry.org/) to manage versions of Python and its libraries. The primary versions are as follows (see `pyproject.toml` for details).
